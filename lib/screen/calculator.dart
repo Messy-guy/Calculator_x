@@ -28,7 +28,7 @@ class _CalculatorState extends State<Calculator> {
       num1 = double.parse(output);
       operand = buttontext;
       _output = "0";
-      shouldReset = false; // Don't reset when entering an operator
+      shouldReset = false; //
     } else if (buttontext == ".") {
       if (_output.contains(".")) {
         print("Already a decimal exists");
