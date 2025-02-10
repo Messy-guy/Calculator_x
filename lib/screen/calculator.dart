@@ -81,7 +81,7 @@ class _CalculatorState extends State<Calculator> {
           ),
           style: OutlinedButton.styleFrom(
             backgroundColor: numberButtonColor,
-            padding: EdgeInsets.all(35),
+              padding: EdgeInsets.symmetric(vertical: 35, horizontal: buttontext == "00" ? 20 : 35),
 
             shape: RoundedRectangleBorder(
               borderRadius:   BorderRadius.circular(10),
